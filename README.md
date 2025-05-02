@@ -31,7 +31,7 @@ This is a full-stack fitness tracking web application built with **Angular** (fr
 ## 📋 How to Run Locally
 
 1. Clone the repository:
-git clone https://github.com/yourusername/Gym-Bros-Fitness-Tracker.git
+git clone https://github.com/Pardo77X/Gym-Bro-s-Fitness-Tracker?tab=readme-ov-file
 
 2. Open Spring Boot backend in your IDE and run the application.
 
