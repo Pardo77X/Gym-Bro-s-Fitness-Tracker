@@ -46,6 +46,9 @@ ng serve
 Creator: Dominic Paredes 
 Course: INEW 2332
 
+## Presentation
+https://docs.google.com/presentation/d/1PBxrQyziLZcsdmnjIRMWewIfcK-iXIn9CbtVJ5nh-A4/edit?usp=sharing
+
 ## Video Demo
 https://drive.google.com/file/d/1DO4tXAXB9_4HOQglnzn-PKnJotVN5UAO/view?usp=sharing
 
