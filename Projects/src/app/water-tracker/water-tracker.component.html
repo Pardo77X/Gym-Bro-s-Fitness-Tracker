@@ -1,0 +1,22 @@
+<div class="water-box">
+  <h3>Water Intake</h3>
+
+  <label for="water">Enter water intake (oz):</label>
+  <input
+    id="water"
+    type="number"
+    [(ngModel)]="water"
+    placeholder="e.g. 64"
+  />
+
+  <button (click)="saveWater()">SAVE</button>
+
+  <div class="history">
+    <h4>Saved Water:</h4>
+    <ul>
+      <li *ngFor="let w of waterLogs">
+        {{ w.dateRecorded | date:'short' }} - {{ w.ounces }} oz
+      </li>
+    </ul>
+  </div>
+</div>

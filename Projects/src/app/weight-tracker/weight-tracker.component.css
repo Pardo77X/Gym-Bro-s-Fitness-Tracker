@@ -1,0 +1,57 @@
+.weight-box {
+  background-color: transparent;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  color: #ff5c5c;
+}
+
+.weight-box h3 {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+  color: #ff5c5c;
+}
+
+.weight-box label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #ff5c5c;
+}
+
+.weight-box input[type="number"] {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #ff5c5c;
+  background-color: white;
+}
+
+
+.weight-box button {
+  background-color: #ff5c5c;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6em 2em;
+  font-size: 1rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+}
+
+.weight-box .history {
+  margin-top: 2em;
+}
+
+.weight-box .history h4 {
+  font-weight: bold;
+}

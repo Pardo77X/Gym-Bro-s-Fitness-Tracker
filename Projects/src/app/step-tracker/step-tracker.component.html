@@ -1,0 +1,23 @@
+<div class="step-box">
+  <h3>
+    <div>STEPS</div>
+    <div>TRACKER</div>
+  </h3>
+
+  <label for="steps">Enter step count:</label>
+  <input
+    id="steps"
+    type="number"
+    [(ngModel)]="stepCount"
+    placeholder="e.g. 10000"
+  />
+
+  <button (click)="saveSteps()">SAVE</button>
+
+  <div class="history">
+    <h4>Saved Steps:</h4>
+    <ul>
+      <li *ngFor="let s of stepEntries">{{ s.dateRecorded | date:'short' }} - {{ s.steps }} steps</li>
+    </ul>
+  </div>
+</div>

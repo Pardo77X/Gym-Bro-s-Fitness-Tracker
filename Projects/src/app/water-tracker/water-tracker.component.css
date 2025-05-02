@@ -1,0 +1,64 @@
+.water-box {
+  background-color: transparent;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  color: #4a90e2;
+}
+
+.water-box h3 {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  margin-bottom: 1em;
+  color: #4a90e2;
+}
+
+.water-box label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #4a90e2;
+}
+
+.water-box input[type="number"] {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #4a90e2; 
+  background-color: white; 
+}
+
+.water-box button {
+  background-color: #4a90e2;
+  color: black;
+  border: none;
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.water-box button:hover {
+  background-color: #3c7fd6;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -webkit-appearance: textfield;
+}
